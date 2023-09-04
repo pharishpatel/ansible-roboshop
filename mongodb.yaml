@@ -1,3 +1,4 @@
+# mongodb installation
 - name: Install MongoDB component
   hosts: mongodb
   become: yes
@@ -24,3 +25,4 @@
     ansible.builtin.service:
       name: mongod
       state: restarted
+    
